@@ -18,6 +18,30 @@ int main() {
 			cin >> Sub3;
 			if (Sub3 == 1) {
 				cout << "You kill baby deer :D" << endl;
+				int Sub4;
+				cout << "1: Cook baby deer, 2: Consume baby deer RAW" << endl;
+				cin >> Sub4;
+				if (Sub4 == 1) {
+					cout << "You make a tasty baby deer!" << endl;
+					int Sub5;
+					cout << "1: Look for more food like a biggie. 2: Make shelter" << endl;
+					cin >> Sub5;
+					if (Sub5 == 1) {
+						cout << "You got killed by a wild moose. BIGGIE" << endl;
+					}
+					else if (Sub5 == 2) {
+						cout << "You used some spare sticks to make shelter!" << endl;
+					}
+					else {
+						cout << "Invalid option!" << endl;
+					}
+				}
+				else if (Sub4 == 2) {
+					cout << "Dont you know not to consume raw meat?? You died." << endl;
+				}
+				else {
+					cout << "Invalid option!" << endl;
+				}
 			}
 			else if (Sub3 == 2) {
 				cout << "You died..." << endl;
