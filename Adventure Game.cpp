@@ -45,6 +45,18 @@ int main() {
 							cin >> Sub7;
 							if (Sub7 == 1) {
 								cout << "You see a fish in the water." << endl;
+								int Sub8;
+								cout << "1: Kill fish 2: let fishie go :<" << endl;
+								cin >> Sub8;
+								if (Sub8 == 1) {
+									cout << "You killed fishie :o" << endl;
+								}
+								else if (Sub8 == 2) {
+									cout << "You starve. No fishie for you!" << endl;
+								}
+								else {
+									cout << "Invalid option!" << endl;
+								}
 							}
 							else if (Sub7 == 2) {
 								cout << "A snake bit you for being lazy!" << endl;
