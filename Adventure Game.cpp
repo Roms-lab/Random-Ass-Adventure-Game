@@ -31,6 +31,31 @@ int main() {
 					}
 					else if (Sub5 == 2) {
 						cout << "You used some spare sticks to make shelter!" << endl;
+						int Sub6;
+						cout << "1: Stay up all night 2: Go to freakin sleep." << endl;
+						cin >> Sub6;
+						if (Sub6 == 1) {
+							cout << "A snake decided to bite you so you sleep FOREVER" << endl;
+						}
+						else if (Sub6 == 2) {
+							cout << "Yay you got sleep! Good job warrior." << endl;
+							cout << "New Day warrior." << endl;
+							int Sub7;
+							cout << "1: Find some breakfast 2: Chill in the so called tent" << endl;
+							cin >> Sub7;
+							if (Sub7 == 1) {
+								cout << "You see a fish in the water." << endl;
+							}
+							else if (Sub7 == 2) {
+								cout << "A snake bit you for being lazy!" << endl;
+							}
+							else {
+								cout << "Invalid option!" << endl;
+							}
+						}
+						else {
+							cout << "Invalid option!" << endl;
+						}
 					}
 					else {
 						cout << "Invalid option!" << endl;
